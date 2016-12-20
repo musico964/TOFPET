@@ -1,0 +1,13 @@
+altera_lib/*
+db/*
+greybox_tmp/*
+incremental_db/*
+rtl_work/*
+TofPetInterface_140817.v
+TofPetInterface_150210.v
+TofPetInterface_150309.v
+TofPetInterface_tb_150215.v
+TofPet_Avalon_MM_IF_150210.v
+dump_test_pattern_orig.txt
+EthernetBoard_Paolo.v
+EthernetBoard_orig.qsf

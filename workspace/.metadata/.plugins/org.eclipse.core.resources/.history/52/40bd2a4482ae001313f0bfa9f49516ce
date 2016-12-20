@@ -1,0 +1,109 @@
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <io.h>
+#include "system.h"
+
+/* MicroC/OS-II definitions */
+#include "includes.h"
+
+int WriteCommandReg(INT32U val)
+{
+	IOWR(TOFPET_AVALON_MM_IF_0_BASE, 0x0B, val);
+	return 0;
+}
+
+int WriteNbitReg(INT32U val)
+{
+	IOWR(TOFPET_AVALON_MM_IF_0_BASE, 0x0A, val);
+	return 0;
+}
+
+int WriteCfgFifo(int ndata, INT32U *val)
+{
+	int i;
+	for(i=0;i<ndata;i++)
+		IOWR(TOFPET_AVALON_MM_IF_0_BASE, 0x09, val);
+	return 0;
+}
+
+int ReadCommandReg(INT32U *val)
+{
+	*val = IORD(TOFPET_AVALON_MM_IF_0_BASE, 0x0B);
+	return 0;
+}
+
+int ReadNbitReg(INT32U *val)
+{
+	*val = IORD(TOFPET_AVALON_MM_IF_0_BASE, 0x0A);
+	return 0;
+}
+
+int ReadCfgFifo(int ndata, INT32U *val)
+{
+	int i;
+	for(i=0;i<ndata;i++)
+		*(val+i) = IORD(TOFPET_AVALON_MM_IF_0_BASE, 0x08);
+	return 0;
+}
+
+int ReadStatusReg(INT32U *val)
+{
+	*val = IORD(TOFPET_AVALON_MM_IF_0_BASE, 0x0C);
+	return 0;
+}
+
+int ReadDataFifoStatus(INT32U *val)
+{
+	*val = IORD(TOFPET_AVALON_MM_IF_0_BASE, 0x06);
+	return 0;
+}
+
+int ReadDataFifo0(int ndata, INT32U *val)
+{
+	int i;
+	for(i=0;i<ndata;i++)
+		*(val+i) = IORD(TOFPET_AVALON_MM_IF_0_BASE, 0x0);
+	return 0;
+}
+
+int ReadDataFifo1(int ndata, INT32U *val)
+{
+	int i;
+	for(i=0;i<ndata;i++)
+		*(val+i) = IORD(TOFPET_AVALON_MM_IF_0_BASE, 0x01);
+	return 0;
+}
+
+int ReadDataFifo2(int ndata, INT32U *val)
+{
+	int i;
+	for(i=0;i<ndata;i++)
+		*(val+i) = IORD(TOFPET_AVALON_MM_IF_0_BASE, 0x02);
+	return 0;
+}
+
+int ReadDataFifo3(int ndata, INT32U *val)
+{
+	int i;
+	for(i=0;i<ndata;i++)
+		*(val+i) = IORD(TOFPET_AVALON_MM_IF_0_BASE, 0x03);
+	return 0;
+}
+
+int ReadDataFifo4(int ndata, INT32U *val)
+{
+	int i;
+	for(i=0;i<ndata;i++)
+		*(val+i) = IORD(TOFPET_AVALON_MM_IF_0_BASE, 0x04);
+	return 0;
+}
+
+int ReadDataFifo5(int ndata, INT32U *val)
+{
+	int i;
+	for(i=0;i<ndata;i++)
+		*(val+i) = IORD(TOFPET_AVALON_MM_IF_0_BASE, 0x05);
+	return 0;
+}
+

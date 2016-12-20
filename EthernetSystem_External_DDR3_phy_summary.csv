@@ -1,0 +1,25 @@
+#Core: EthernetSystem_External_DDR3_phy - Instance: EthernetSystem_Instance|external_ddr3|EthernetSystem_External_DDR3_controller_phy_inst|EthernetSystem_External_DDR3_phy_inst
+#Path, Setup Margin, Hold Margin
+"Address Command (Slow 900mV 85C Model)",0.831,0.618
+"Half Rate Address/Command (Slow 900mV 85C Model)",3.295,0.554
+"Phy (Slow 900mV 85C Model)",0.507,0.211
+"Phy Reset (Slow 900mV 85C Model)",0.374,0.530
+"Read Capture (Slow 900mV 85C Model)",-0.051,0.222
+"Read Resync (All Conditions)",0.284,0.435
+"Write (Slow 900mV 85C Model)",-0.038,0.133
+ 
+"Address Command (Slow 900mV 0C Model)",0.927,0.582
+"Half Rate Address/Command (Slow 900mV 0C Model)",3.392,0.523
+"Phy (Slow 900mV 0C Model)",0.541,0.184
+"Phy Reset (Slow 900mV 0C Model)",0.408,0.502
+"Read Capture (Slow 900mV 0C Model)",0.027,0.153
+"Read Resync (All Conditions)",0.290,0.441
+"Write (Slow 900mV 0C Model)",-0.013,0.146
+ 
+"Address Command (Fast 900mV 0C Model)",1.196,0.457
+"Half Rate Address/Command (Fast 900mV 0C Model)",3.662,0.399
+"Phy (Fast 900mV 0C Model)",0.942,0.083
+"Phy Reset (Fast 900mV 0C Model)",0.878,0.275
+"Read Capture (Fast 900mV 0C Model)",0.044,0.282
+"Read Resync (All Conditions)",0.317,0.468
+"Write (Fast 900mV 0C Model)",0.057,0.165

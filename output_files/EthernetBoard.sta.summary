@@ -1,0 +1,725 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 900mV 85C Model Setup 'TofPet_clk_virt'
+Slack : -30.982
+TNS   : -30.982
+
+Type  : Slow 900mV 85C Model Setup 'enet_gtx_clk_virt'
+Slack : -10.119
+TNS   : -50.550
+
+Type  : Slow 900mV 85C Model Setup 'Slow_clk_virt'
+Slack : -9.743
+TNS   : -15.647
+
+Type  : Slow 900mV 85C Model Setup 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.738
+TNS   : -56.199
+
+Type  : Slow 900mV 85C Model Setup 'CLKO_1'
+Slack : -0.902
+TNS   : -22.516
+
+Type  : Slow 900mV 85C Model Setup 'CLKO_5'
+Slack : -0.881
+TNS   : -20.030
+
+Type  : Slow 900mV 85C Model Setup 'CLKO_4'
+Slack : -0.532
+TNS   : -16.842
+
+Type  : Slow 900mV 85C Model Setup 'CLKO_2'
+Slack : -0.473
+TNS   : -11.767
+
+Type  : Slow 900mV 85C Model Setup 'CLKO_0'
+Slack : -0.100
+TNS   : -0.928
+
+Type  : Slow 900mV 85C Model Setup 'CLKO_3'
+Slack : -0.040
+TNS   : -0.040
+
+Type  : Slow 900mV 85C Model Setup 'CLKIN_PARALLEL'
+Slack : -0.010
+TNS   : -0.010
+
+Type  : Slow 900mV 85C Model Setup 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.147
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.724
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.737
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4.793
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'ENET_RX_CK'
+Slack : 15.933
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Setup 'altera_reserved_tck'
+Slack : 47.117
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.047
+TNS   : -0.248
+
+Type  : Slow 900mV 85C Model Hold 'CLKO_2'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'CLKO_5'
+Slack : 0.026
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.032
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'CLKIN_PARALLEL'
+Slack : 0.037
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'CLKO_4'
+Slack : 0.136
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'ENET_RX_CK'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'CLKO_1'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'CLKO_3'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'CLKO_0'
+Slack : 0.263
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.276
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.471
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'TofPet_clk_virt'
+Slack : 2.563
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'Slow_clk_virt'
+Slack : 2.892
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Hold 'enet_gtx_clk_virt'
+Slack : 5.037
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Recovery 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.808
+TNS   : -1.614
+
+Type  : Slow 900mV 85C Model Recovery 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 3.432
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Recovery 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.445
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Recovery 'CLKIN_PARALLEL'
+Slack : 5.757
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Recovery 'ENET_RX_CK'
+Slack : 37.282
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 48.650
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'CLKIN_PARALLEL'
+Slack : 0.511
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'altera_reserved_tck'
+Slack : 0.571
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.788
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.867
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.306
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Removal 'ENET_RX_CK'
+Slack : 2.020
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'CLKO_1'
+Slack : 2.220
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'CLKO_2'
+Slack : 2.220
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'CLKO_4'
+Slack : 2.224
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'CLKO_5'
+Slack : 2.224
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.268
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'CLKO_0'
+Slack : 2.293
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'CLKO_3'
+Slack : 2.294
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.151
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'CLKIN_PARALLEL'
+Slack : 4.088
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'ENET_RX_CK'
+Slack : 19.037
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 19.145
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.030
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 49.147
+TNS   : 0.000
+
+Type  : Slow 900mV 85C Model Minimum Pulse Width 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 199.134
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'TofPet_clk_virt'
+Slack : -29.762
+TNS   : -29.762
+
+Type  : Slow 900mV 0C Model Setup 'enet_gtx_clk_virt'
+Slack : -9.884
+TNS   : -49.380
+
+Type  : Slow 900mV 0C Model Setup 'Slow_clk_virt'
+Slack : -9.485
+TNS   : -15.236
+
+Type  : Slow 900mV 0C Model Setup 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.558
+TNS   : -52.530
+
+Type  : Slow 900mV 0C Model Setup 'CLKO_1'
+Slack : -0.763
+TNS   : -18.002
+
+Type  : Slow 900mV 0C Model Setup 'CLKO_5'
+Slack : -0.733
+TNS   : -16.023
+
+Type  : Slow 900mV 0C Model Setup 'CLKO_4'
+Slack : -0.415
+TNS   : -12.535
+
+Type  : Slow 900mV 0C Model Setup 'CLKO_2'
+Slack : -0.353
+TNS   : -8.044
+
+Type  : Slow 900mV 0C Model Setup 'CLKO_0'
+Slack : -0.053
+TNS   : -0.418
+
+Type  : Slow 900mV 0C Model Setup 'CLKIN_PARALLEL'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'CLKO_3'
+Slack : 0.028
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.419
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.967
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.984
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4.959
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'ENET_RX_CK'
+Slack : 16.163
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Setup 'altera_reserved_tck'
+Slack : 47.214
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.061
+TNS   : -0.260
+
+Type  : Slow 900mV 0C Model Hold 'CLKO_2'
+Slack : 0.001
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.020
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'CLKO_5'
+Slack : 0.031
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'CLKIN_PARALLEL'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'CLKO_4'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'ENET_RX_CK'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'CLKO_1'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'CLKO_3'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.196
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'CLKO_0'
+Slack : 0.241
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.269
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.269
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.439
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'TofPet_clk_virt'
+Slack : 2.361
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'Slow_clk_virt'
+Slack : 2.782
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Hold 'enet_gtx_clk_virt'
+Slack : 4.821
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Recovery 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.751
+TNS   : -1.500
+
+Type  : Slow 900mV 0C Model Recovery 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 3.475
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Recovery 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.492
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Recovery 'CLKIN_PARALLEL'
+Slack : 5.969
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Recovery 'ENET_RX_CK'
+Slack : 37.414
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 48.680
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'CLKIN_PARALLEL'
+Slack : 0.495
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.560
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.722
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.803
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.222
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Removal 'ENET_RX_CK'
+Slack : 1.917
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'CLKO_2'
+Slack : 2.227
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'CLKO_5'
+Slack : 2.228
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'CLKO_1'
+Slack : 2.233
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'CLKO_4'
+Slack : 2.241
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.257
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'CLKO_3'
+Slack : 2.285
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'CLKO_0'
+Slack : 2.288
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.137
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'CLKIN_PARALLEL'
+Slack : 4.068
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'ENET_RX_CK'
+Slack : 19.039
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 19.120
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.058
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 49.133
+TNS   : 0.000
+
+Type  : Slow 900mV 0C Model Minimum Pulse Width 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 199.121
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'TofPet_clk_virt'
+Slack : -14.685
+TNS   : -14.685
+
+Type  : Fast 900mV 0C Model Setup 'enet_gtx_clk_virt'
+Slack : -8.539
+TNS   : -42.657
+
+Type  : Fast 900mV 0C Model Setup 'Slow_clk_virt'
+Slack : -8.026
+TNS   : -13.062
+
+Type  : Fast 900mV 0C Model Setup 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.342
+TNS   : -26.662
+
+Type  : Fast 900mV 0C Model Setup 'CLKO_1'
+Slack : -0.007
+TNS   : -0.051
+
+Type  : Fast 900mV 0C Model Setup 'CLKO_5'
+Slack : 0.023
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'CLKO_4'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'CLKO_2'
+Slack : 0.240
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'CLKO_0'
+Slack : 0.525
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'CLKO_3'
+Slack : 0.544
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'CLKIN_PARALLEL'
+Slack : 0.598
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.685
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 5.019
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 5.021
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 6.656
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'ENET_RX_CK'
+Slack : 16.313
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Setup 'altera_reserved_tck'
+Slack : 48.741
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'CLKIN_PARALLEL'
+Slack : -0.066
+TNS   : -0.646
+
+Type  : Fast 900mV 0C Model Hold 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.055
+TNS   : -3.041
+
+Type  : Fast 900mV 0C Model Hold 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : -0.026
+TNS   : -0.087
+
+Type  : Fast 900mV 0C Model Hold 'CLKO_5'
+Slack : -0.005
+TNS   : -0.005
+
+Type  : Fast 900mV 0C Model Hold 'CLKO_2'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'ENET_RX_CK'
+Slack : 0.059
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'CLKO_1'
+Slack : 0.083
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'CLKO_4'
+Slack : 0.089
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.102
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'CLKO_3'
+Slack : 0.123
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'CLKO_0'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.252
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'TofPet_clk_virt'
+Slack : 1.514
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'Slow_clk_virt'
+Slack : 2.266
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Hold 'enet_gtx_clk_virt'
+Slack : 3.605
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.253
+TNS   : -0.504
+
+Type  : Fast 900mV 0C Model Recovery 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.893
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 3.895
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'CLKIN_PARALLEL'
+Slack : 7.362
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'ENET_RX_CK'
+Slack : 38.355
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 49.579
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'CLKIN_PARALLEL'
+Slack : 0.278
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.474
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.752
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Removal 'ENET_RX_CK'
+Slack : 1.260
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'CLKO_5'
+Slack : 2.265
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'CLKO_1'
+Slack : 2.271
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'CLKO_2'
+Slack : 2.271
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'CLKO_4'
+Slack : 2.276
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'CLKO_0'
+Slack : 2.302
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'CLKO_3'
+Slack : 2.302
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.311
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.163
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'CLKIN_PARALLEL'
+Slack : 4.128
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'ENET_RX_CK'
+Slack : 18.827
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 19.163
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 48.789
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'TofPetPll_Instance|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 49.186
+TNS   : 0.000
+
+Type  : Fast 900mV 0C Model Minimum Pulse Width 'tx_clk_inst|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 199.165
+TNS   : 0.000
+
+------------------------------------------------------------

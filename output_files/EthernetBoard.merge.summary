@@ -1,0 +1,20 @@
+Partition Merge Status : Successful - Thu Sep 29 11:32:39 2016
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : EthernetBoard
+Top-level Entity Name : EthernetBoard
+Family : Arria II GX
+Logic utilization : N/A
+    Combinational ALUTs : 10,511
+    Memory ALUTs : 0
+    Dedicated logic registers : 11,507
+Total registers : 11529
+Total pins : 199
+Total virtual pins : 0
+Total block memory bits : 5,383,804
+DSP block 18-bit elements : 4
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 2
+Total DLLs : 0

@@ -1,0 +1,22 @@
+Fitter Status : Successful - Thu Sep 29 11:39:07 2016
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : EthernetBoard
+Top-level Entity Name : EthernetBoard
+Family : Arria II GX
+Device : EP2AGX125EF35C4
+Timing Models : Final
+Logic utilization : 16 %
+    Combinational ALUTs : 11,060 / 99,280 ( 11 % )
+    Memory ALUTs : 9 / 49,640 ( < 1 % )
+    Dedicated logic registers : 11,908 / 99,280 ( 12 % )
+Total registers : 11930
+Total pins : 239 / 512 ( 47 % )
+Total virtual pins : 0
+Total block memory bits : 5,383,612 / 6,727,680 ( 80 % )
+DSP block 18-bit elements : 4 / 576 ( < 1 % )
+Total GXB Receiver Channel PCS : 0 / 12 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 12 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 12 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 12 ( 0 % )
+Total PLLs : 2 / 6 ( 33 % )
+Total DLLs : 0 / 2 ( 0 % )

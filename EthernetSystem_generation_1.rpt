@@ -1,0 +1,463 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/ --output-directory=C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem/ --report-file=bsf:C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem.bsf --system-info=DEVICE_FAMILY="Arria II GX" --system-info=DEVICE=EP2AGX125EF35C4 --system-info=DEVICE_SPEEDGRADE=4 --component-file=C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem.qsys
+Progress: Loading DK-DEV-A2GX125N_Eth/EthernetSystem.qsys
+Progress: Reading input file
+Progress: Adding clkin_100 [clock_source 13.0]
+Progress: Parameterizing module clkin_100
+Progress: Adding sys_clk_timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module sys_clk_timer
+Progress: Adding high_res_timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module high_res_timer
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart
+Progress: Adding sgdma_rx [altera_avalon_sgdma 13.0.1.99.2]
+Progress: Parameterizing module sgdma_rx
+Progress: Adding sgdma_tx [altera_avalon_sgdma 13.0.1.99.2]
+Progress: Parameterizing module sgdma_tx
+Progress: Adding descriptor_memory [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module descriptor_memory
+Progress: Adding led_pio [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module led_pio
+Progress: Adding button_pio [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module button_pio
+Progress: Adding performance_counter [altera_avalon_performance_counter 13.0.1.99.2]
+Progress: Parameterizing module performance_counter
+Progress: Adding lcd [altera_avalon_lcd_16207 13.0.1.99.2]
+Progress: Parameterizing module lcd
+Progress: Adding peripheral_bridge [altera_avalon_mm_bridge 13.0]
+Progress: Parameterizing module peripheral_bridge
+Progress: Adding cpu [altera_nios2_qsys 13.0]
+Progress: Parameterizing module cpu
+Progress: Adding sysid [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid
+Progress: Adding flash_tristate_bridge_bridge_0 [altera_tristate_conduit_bridge 13.0]
+Progress: Parameterizing module flash_tristate_bridge_bridge_0
+Progress: Adding flash_tristate_bridge_pinSharer_0 [altera_tristate_conduit_pin_sharer 13.0]
+Progress: Parameterizing module flash_tristate_bridge_pinSharer_0
+Progress: Adding ext_flash [altera_generic_tristate_controller 13.0]
+Progress: Parameterizing module ext_flash
+Progress: Adding maxII_interface [altera_generic_tristate_controller 13.0]
+Progress: Parameterizing module maxII_interface
+Progress: Adding sysclk [altera_clock_bridge 13.0]
+Progress: Parameterizing module sysclk
+Progress: Adding tse_mac [altera_eth_tse 13.0]
+Progress: Parameterizing module tse_mac
+Progress: Adding onchip_SRAM [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_SRAM
+Progress: Adding TofPet_Avalon_MM_IF_0 [TofPet_Avalon_MM_IF 1.0]
+Progress: Parameterizing module TofPet_Avalon_MM_IF_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: EthernetSystem.cpu: CPUID control register value is 0. Please manually assign CPUID if creating multiple Nios II system
+Info: EthernetSystem.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: EthernetSystem.sysid: Time stamp will be automatically updated when this component is generated.
+Warning: EthernetSystem.ext_flash: Properties (isFlash,isMemoryDevice,isNonVolatileStorage) have been set on interface uas - in composed mode these are ignored
+Info: EthernetSystem.tse_mac: To transition your existing Triple-Speed Ethernet (TSE) design to this new version of the user interface, refer to TSE user guide.
+Altera recommends using this new TSE user interface for all new TSE designs.
+Info: EthernetSystem.tse_mac.receive/sgdma_rx.in: The source has a ready latency of 2, while the sink has 0. Avalon Streaming Transform will be executed.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/ --output-directory=C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem.sopcinfo --report-file=html:C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem.html --report-file=qip:C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem/synthesis/EthernetSystem.qip --report-file=cmp:C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem.cmp --report-file=svd --system-info=DEVICE_FAMILY="Arria II GX" --system-info=DEVICE=EP2AGX125EF35C4 --system-info=DEVICE_SPEEDGRADE=4 --component-file=C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem.qsys --language=VERILOG
+Progress: Loading DK-DEV-A2GX125N_Eth/EthernetSystem.qsys
+Progress: Reading input file
+Progress: Adding clkin_100 [clock_source 13.0]
+Progress: Parameterizing module clkin_100
+Progress: Adding sys_clk_timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module sys_clk_timer
+Progress: Adding high_res_timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module high_res_timer
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart
+Progress: Adding sgdma_rx [altera_avalon_sgdma 13.0.1.99.2]
+Progress: Parameterizing module sgdma_rx
+Progress: Adding sgdma_tx [altera_avalon_sgdma 13.0.1.99.2]
+Progress: Parameterizing module sgdma_tx
+Progress: Adding descriptor_memory [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module descriptor_memory
+Progress: Adding led_pio [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module led_pio
+Progress: Adding button_pio [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module button_pio
+Progress: Adding performance_counter [altera_avalon_performance_counter 13.0.1.99.2]
+Progress: Parameterizing module performance_counter
+Progress: Adding lcd [altera_avalon_lcd_16207 13.0.1.99.2]
+Progress: Parameterizing module lcd
+Progress: Adding peripheral_bridge [altera_avalon_mm_bridge 13.0]
+Progress: Parameterizing module peripheral_bridge
+Progress: Adding cpu [altera_nios2_qsys 13.0]
+Progress: Parameterizing module cpu
+Progress: Adding sysid [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid
+Progress: Adding flash_tristate_bridge_bridge_0 [altera_tristate_conduit_bridge 13.0]
+Progress: Parameterizing module flash_tristate_bridge_bridge_0
+Progress: Adding flash_tristate_bridge_pinSharer_0 [altera_tristate_conduit_pin_sharer 13.0]
+Progress: Parameterizing module flash_tristate_bridge_pinSharer_0
+Progress: Adding ext_flash [altera_generic_tristate_controller 13.0]
+Progress: Parameterizing module ext_flash
+Progress: Adding maxII_interface [altera_generic_tristate_controller 13.0]
+Progress: Parameterizing module maxII_interface
+Progress: Adding sysclk [altera_clock_bridge 13.0]
+Progress: Parameterizing module sysclk
+Progress: Adding tse_mac [altera_eth_tse 13.0]
+Progress: Parameterizing module tse_mac
+Progress: Adding onchip_SRAM [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_SRAM
+Progress: Adding TofPet_Avalon_MM_IF_0 [TofPet_Avalon_MM_IF 1.0]
+Progress: Parameterizing module TofPet_Avalon_MM_IF_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: EthernetSystem.cpu: CPUID control register value is 0. Please manually assign CPUID if creating multiple Nios II system
+Info: EthernetSystem.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: EthernetSystem.sysid: Time stamp will be automatically updated when this component is generated.
+Warning: EthernetSystem.ext_flash: Properties (isFlash,isMemoryDevice,isNonVolatileStorage) have been set on interface uas - in composed mode these are ignored
+Info: EthernetSystem.tse_mac: To transition your existing Triple-Speed Ethernet (TSE) design to this new version of the user interface, refer to TSE user guide.
+Altera recommends using this new TSE user interface for all new TSE designs.
+Info: EthernetSystem.tse_mac.receive/sgdma_rx.in: The source has a ready latency of 2, while the sink has 0. Avalon Streaming Transform will be executed.
+Info: EthernetSystem: Generating EthernetSystem "EthernetSystem" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 22 modules, 102 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 49 modules, 210 connections
+Info: merlin_domain_transform: After transform: 97 modules, 537 connections
+Info: merlin_router_transform: After transform: 124 modules, 645 connections
+Info: merlin_traffic_limiter_transform: After transform: 127 modules, 660 connections
+Info: merlin_burst_transform: After transform: 128 modules, 664 connections
+Info: reset_adaptation_transform: After transform: 129 modules, 516 connections
+Info: merlin_network_to_switch_transform: After transform: 181 modules, 626 connections
+Info: merlin_width_transform: After transform: 183 modules, 632 connections
+Info: limiter_update_transform: After transform: 183 modules, 635 connections
+Info: merlin_mm_transform: After transform: 183 modules, 635 connections
+Info: merlin_interrupt_mapper_transform: After transform: 184 modules, 638 connections
+Info: avalon_st_adapter: Inserting timing_adapter: timing_adapter_0
+Info: com_altera_sopcmodel_transforms_avalonst_AvalonStreamingTransform: After transform: 185 modules, 641 connections
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: EthernetSystem: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Info: sys_clk_timer: Starting RTL generation for module 'EthernetSystem_sys_clk_timer'
+Info: sys_clk_timer:   Generation command is [exec C:/programs/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/programs/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=EthernetSystem_sys_clk_timer --dir=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0002_sys_clk_timer_gen/ --quartus_dir=C:/programs/altera/13.0sp1/quartus --verilog --config=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0002_sys_clk_timer_gen//EthernetSystem_sys_clk_timer_component_configuration.pl  --do_build_sim=0  ]
+Info: sys_clk_timer: Done RTL generation for module 'EthernetSystem_sys_clk_timer'
+Info: sys_clk_timer: "EthernetSystem" instantiated altera_avalon_timer "sys_clk_timer"
+Info: high_res_timer: Starting RTL generation for module 'EthernetSystem_high_res_timer'
+Info: high_res_timer:   Generation command is [exec C:/programs/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/programs/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=EthernetSystem_high_res_timer --dir=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0003_high_res_timer_gen/ --quartus_dir=C:/programs/altera/13.0sp1/quartus --verilog --config=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0003_high_res_timer_gen//EthernetSystem_high_res_timer_component_configuration.pl  --do_build_sim=0  ]
+Info: high_res_timer: Done RTL generation for module 'EthernetSystem_high_res_timer'
+Info: high_res_timer: "EthernetSystem" instantiated altera_avalon_timer "high_res_timer"
+Info: jtag_uart: Starting RTL generation for module 'EthernetSystem_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/programs/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/programs/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=EthernetSystem_jtag_uart --dir=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0004_jtag_uart_gen/ --quartus_dir=C:/programs/altera/13.0sp1/quartus --verilog --config=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0004_jtag_uart_gen//EthernetSystem_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'EthernetSystem_jtag_uart'
+Info: jtag_uart: "EthernetSystem" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: sgdma_rx: Starting RTL generation for module 'EthernetSystem_sgdma_rx'
+Info: sgdma_rx:   Generation command is [exec C:/programs/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/programs/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_sgdma -- C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_sgdma/generate_rtl.pl --name=EthernetSystem_sgdma_rx --dir=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0005_sgdma_rx_gen/ --quartus_dir=C:/programs/altera/13.0sp1/quartus --verilog --config=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0005_sgdma_rx_gen//EthernetSystem_sgdma_rx_component_configuration.pl  --do_build_sim=0  ]
+Info: sgdma_rx: Done RTL generation for module 'EthernetSystem_sgdma_rx'
+Info: sgdma_rx: "EthernetSystem" instantiated altera_avalon_sgdma "sgdma_rx"
+Info: sgdma_tx: Starting RTL generation for module 'EthernetSystem_sgdma_tx'
+Info: sgdma_tx:   Generation command is [exec C:/programs/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/programs/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_sgdma -- C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_sgdma/generate_rtl.pl --name=EthernetSystem_sgdma_tx --dir=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0006_sgdma_tx_gen/ --quartus_dir=C:/programs/altera/13.0sp1/quartus --verilog --config=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0006_sgdma_tx_gen//EthernetSystem_sgdma_tx_component_configuration.pl  --do_build_sim=0  ]
+Info: sgdma_tx: Done RTL generation for module 'EthernetSystem_sgdma_tx'
+Info: sgdma_tx: "EthernetSystem" instantiated altera_avalon_sgdma "sgdma_tx"
+Info: descriptor_memory: Starting RTL generation for module 'EthernetSystem_descriptor_memory'
+Info: descriptor_memory:   Generation command is [exec C:/programs/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/programs/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=EthernetSystem_descriptor_memory --dir=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0007_descriptor_memory_gen/ --quartus_dir=C:/programs/altera/13.0sp1/quartus --verilog --config=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0007_descriptor_memory_gen//EthernetSystem_descriptor_memory_component_configuration.pl  --do_build_sim=0  ]
+Info: descriptor_memory: Done RTL generation for module 'EthernetSystem_descriptor_memory'
+Info: descriptor_memory: "EthernetSystem" instantiated altera_avalon_onchip_memory2 "descriptor_memory"
+Info: led_pio: Starting RTL generation for module 'EthernetSystem_led_pio'
+Info: led_pio:   Generation command is [exec C:/programs/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/programs/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=EthernetSystem_led_pio --dir=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0008_led_pio_gen/ --quartus_dir=C:/programs/altera/13.0sp1/quartus --verilog --config=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0008_led_pio_gen//EthernetSystem_led_pio_component_configuration.pl  --do_build_sim=0  ]
+Info: led_pio: Done RTL generation for module 'EthernetSystem_led_pio'
+Info: led_pio: "EthernetSystem" instantiated altera_avalon_pio "led_pio"
+Info: button_pio: Starting RTL generation for module 'EthernetSystem_button_pio'
+Info: button_pio:   Generation command is [exec C:/programs/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/programs/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=EthernetSystem_button_pio --dir=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0009_button_pio_gen/ --quartus_dir=C:/programs/altera/13.0sp1/quartus --verilog --config=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0009_button_pio_gen//EthernetSystem_button_pio_component_configuration.pl  --do_build_sim=0  ]
+Info: button_pio: Done RTL generation for module 'EthernetSystem_button_pio'
+Info: button_pio: "EthernetSystem" instantiated altera_avalon_pio "button_pio"
+Info: performance_counter: Starting RTL generation for module 'EthernetSystem_performance_counter'
+Info: performance_counter:   Generation command is [exec C:/programs/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/programs/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_performance_counter -- C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_performance_counter/generate_rtl.pl --name=EthernetSystem_performance_counter --dir=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0010_performance_counter_gen/ --quartus_dir=C:/programs/altera/13.0sp1/quartus --verilog --config=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0010_performance_counter_gen//EthernetSystem_performance_counter_component_configuration.pl  --do_build_sim=0  ]
+Info: performance_counter: Done RTL generation for module 'EthernetSystem_performance_counter'
+Info: performance_counter: "EthernetSystem" instantiated altera_avalon_performance_counter "performance_counter"
+Info: lcd: Starting RTL generation for module 'EthernetSystem_lcd'
+Info: lcd:   Generation command is [exec C:/programs/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/programs/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_lcd_16207 -- C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_lcd_16207/generate_rtl.pl --name=EthernetSystem_lcd --dir=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0011_lcd_gen/ --quartus_dir=C:/programs/altera/13.0sp1/quartus --verilog --config=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0011_lcd_gen//EthernetSystem_lcd_component_configuration.pl  --do_build_sim=0  ]
+Info: lcd: Done RTL generation for module 'EthernetSystem_lcd'
+Info: lcd: "EthernetSystem" instantiated altera_avalon_lcd_16207 "lcd"
+Info: peripheral_bridge: "EthernetSystem" instantiated altera_avalon_mm_bridge "peripheral_bridge"
+Info: cpu: Starting RTL generation for module 'EthernetSystem_cpu'
+Info: cpu:   Generation command is [exec C:/programs/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/programs/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin -I C:/programs/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/programs/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/programs/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/programs/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/programs/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=EthernetSystem_cpu --dir=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0012_cpu_gen/ --quartus_dir=C:/programs/altera/13.0sp1/quartus --verilog --config=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0012_cpu_gen//EthernetSystem_cpu_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: cpu: # 2014.04.15 09:20:21 (*) Starting Nios II generation
+Info: cpu: # 2014.04.15 09:20:21 (*)   Checking for plaintext license.
+Info: cpu: # 2014.04.15 09:20:22 (*)   Plaintext license not found.
+Info: cpu: # 2014.04.15 09:20:22 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2014.04.15 09:20:22 (*)   Encrypted license found.  SOF will not be time-limited.
+Info: cpu: # 2014.04.15 09:20:22 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2014.04.15 09:20:22 (*)   Creating all objects for CPU
+Info: cpu: # 2014.04.15 09:20:22 (*)     Testbench
+Info: cpu: # 2014.04.15 09:20:23 (*)     Instruction decoding
+Info: cpu: # 2014.04.15 09:20:23 (*)       Instruction fields
+Info: cpu: # 2014.04.15 09:20:23 (*)       Instruction decodes
+Info: cpu: # 2014.04.15 09:20:23 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2014.04.15 09:20:23 (*)       Instruction controls
+Info: cpu: # 2014.04.15 09:20:23 (*)     Pipeline frontend
+Info: cpu: # 2014.04.15 09:20:23 (*)     Pipeline backend
+Info: cpu: # 2014.04.15 09:20:25 (*)   Generating RTL from CPU objects
+Info: cpu: # 2014.04.15 09:20:28 (*)   Creating encrypted RTL
+Info: cpu: # 2014.04.15 09:20:29 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'EthernetSystem_cpu'
+Info: cpu: "EthernetSystem" instantiated altera_nios2_qsys "cpu"
+Info: sysid: "EthernetSystem" instantiated altera_avalon_sysid_qsys "sysid"
+Info: flash_tristate_bridge_bridge_0: "EthernetSystem" instantiated altera_tristate_conduit_bridge "flash_tristate_bridge_bridge_0"
+Info: pipeline_bridge_swap_transform: After transform: 4 modules, 8 connections
+Info: No custom instruction connections, skipping transform 
+Info: No Avalon connections, skipping transform 
+Info: merlin_translator_transform: After transform: 4 modules, 8 connections
+Info: flash_tristate_bridge_pinSharer_0: "EthernetSystem" instantiated altera_tristate_conduit_pin_sharer "flash_tristate_bridge_pinSharer_0"
+Info: pipeline_bridge_swap_transform: After transform: 5 modules, 10 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 5 modules, 10 connections
+Info: ext_flash: "EthernetSystem" instantiated altera_generic_tristate_controller "ext_flash"
+Info: pipeline_bridge_swap_transform: After transform: 5 modules, 10 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 5 modules, 10 connections
+Info: maxII_interface: "EthernetSystem" instantiated altera_generic_tristate_controller "maxII_interface"
+Info: pipeline_bridge_swap_transform: After transform: 1 modules, 0 connections
+Info: No custom instruction connections, skipping transform 
+Info: No Avalon connections, skipping transform 
+Info: merlin_translator_transform: After transform: 1 modules, 0 connections
+Info: tse_mac: "EthernetSystem" instantiated altera_eth_tse "tse_mac"
+Info: onchip_SRAM: Starting RTL generation for module 'EthernetSystem_onchip_SRAM'
+Info: onchip_SRAM:   Generation command is [exec C:/programs/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/programs/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/programs/altera/13.0sp1/quartus/sopc_builder/bin -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/programs/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=EthernetSystem_onchip_SRAM --dir=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0015_onchip_SRAM_gen/ --quartus_dir=C:/programs/altera/13.0sp1/quartus --verilog --config=C:/Users/musico/AppData/Local/Temp/alt6175_2446950423790169266.dir/0015_onchip_SRAM_gen//EthernetSystem_onchip_SRAM_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_SRAM: Done RTL generation for module 'EthernetSystem_onchip_SRAM'
+Info: onchip_SRAM: "EthernetSystem" instantiated altera_avalon_onchip_memory2 "onchip_SRAM"
+Info: TofPet_Avalon_MM_IF_0: "EthernetSystem" instantiated TofPet_Avalon_MM_IF "TofPet_Avalon_MM_IF_0"
+Info: cpu_instruction_master_translator: "EthernetSystem" instantiated altera_merlin_master_translator "cpu_instruction_master_translator"
+Info: cpu_jtag_debug_module_translator: "EthernetSystem" instantiated altera_merlin_slave_translator "cpu_jtag_debug_module_translator"
+Info: cpu_instruction_master_translator_avalon_universal_master_0_agent: "EthernetSystem" instantiated altera_merlin_master_agent "cpu_instruction_master_translator_avalon_universal_master_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent: "EthernetSystem" instantiated altera_merlin_slave_agent "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "EthernetSystem" instantiated altera_avalon_sc_fifo "cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "EthernetSystem" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "EthernetSystem" instantiated altera_merlin_router "addr_router_001"
+Info: addr_router_002: "EthernetSystem" instantiated altera_merlin_router "addr_router_002"
+Info: addr_router_006: "EthernetSystem" instantiated altera_merlin_router "addr_router_006"
+Info: id_router: "EthernetSystem" instantiated altera_merlin_router "id_router"
+Info: id_router_001: "EthernetSystem" instantiated altera_merlin_router "id_router_001"
+Info: id_router_003: "EthernetSystem" instantiated altera_merlin_router "id_router_003"
+Info: id_router_004: "EthernetSystem" instantiated altera_merlin_router "id_router_004"
+Info: id_router_005: "EthernetSystem" instantiated altera_merlin_router "id_router_005"
+Info: addr_router_008: "EthernetSystem" instantiated altera_merlin_router "addr_router_008"
+Info: id_router_010: "EthernetSystem" instantiated altera_merlin_router "id_router_010"
+Info: limiter: "EthernetSystem" instantiated altera_merlin_traffic_limiter "limiter"
+Info: burst_adapter: "EthernetSystem" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "EthernetSystem" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "EthernetSystem" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "EthernetSystem" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_demux_002: "EthernetSystem" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_002"
+Info: cmd_xbar_mux: "EthernetSystem" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: cmd_xbar_mux_003: "EthernetSystem" instantiated altera_merlin_multiplexer "cmd_xbar_mux_003"
+Info: Reusing file C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_xbar_mux_004: "EthernetSystem" instantiated altera_merlin_multiplexer "cmd_xbar_mux_004"
+Info: Reusing file C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_demux: "EthernetSystem" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_003: "EthernetSystem" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_003"
+Info: rsp_xbar_demux_004: "EthernetSystem" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_004"
+Info: rsp_xbar_mux: "EthernetSystem" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "EthernetSystem" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_xbar_demux_008: "EthernetSystem" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_008"
+Info: rsp_xbar_demux_010: "EthernetSystem" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_010"
+Info: rsp_xbar_mux_008: "EthernetSystem" instantiated altera_merlin_multiplexer "rsp_xbar_mux_008"
+Info: Reusing file C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "EthernetSystem" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/musico/Documents/INFN/TOPEM/EndoProbe/AlteraDevelBoards/DK-DEV-A2GX125N_Eth/EthernetSystem/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: irq_mapper: "EthernetSystem" instantiated altera_irq_mapper "irq_mapper"
+Info: pipeline_bridge_swap_transform: After transform: 3 modules, 3 connections
+Info: No custom instruction connections, skipping transform 
+Info: No Avalon connections, skipping transform 
+Info: merlin_translator_transform: After transform: 3 modules, 3 connections
+Info: avalon_st_adapter: "EthernetSystem" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: pin_sharer: "flash_tristate_bridge_pinSharer_0" instantiated altera_tristate_conduit_pin_sharer_core "pin_sharer"
+Info: arbiter: "flash_tristate_bridge_pinSharer_0" instantiated altera_merlin_std_arbitrator "arbiter"
+Info: tdt: "ext_flash" instantiated altera_tristate_controller_translator "tdt"
+Info: tda: "ext_flash" instantiated altera_tristate_controller_aggregator "tda"
+Info: i_tse_mac: "tse_mac" instantiated altera_eth_tse_mac "i_tse_mac"
+Info: timing_adapter_0: Starting generation. 
+Info: timing_adapter_0_fifo: Starting generation. 
+Info: timing_adapter_0: "avalon_st_adapter" instantiated timing_adapter "timing_adapter_0"
+Info: EthernetSystem: Done EthernetSystem" with 63 modules, 313 files, 9511549 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

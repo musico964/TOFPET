@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project AsicController ****
+
+make all 
+Info: Building ../AsicController_bsp/
+make --no-print-directory -C ../AsicController_bsp/
+[BSP build complete]
+[AsicController build complete]
+
+**** Build Finished ****
